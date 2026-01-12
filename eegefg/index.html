@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Військовий адвокат Ярослав — Допомога з ТЦК, ВЛК, відстрочками</title>
+  <meta name="description" content="Юридична допомога військовозобов'язаним: оскарження ВЛК, оформлення відстрочок, зняття з розшуку ТЦК, супровід у ТЦК/СП. Конфіденційно. Досвід з 2014 року.">
+
+  <style>
+    :root {
+      --bg: #0f0f17;
+      --text: #e0e0ff;
+      --accent: #6366f1;
+      --accent-dark: #4f46e5;
+      --card: #1a1a2e;
+      --border: #2d2d44;
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 1.05rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f0f17 0%, #1a1a2e 100%);
+      text-align: center;
+    }
+
+    .hero h1 { font-size: clamp(2.6rem, 9vw, 5rem); font-weight: 800; line-height: 1.1; margin-bottom: 1.4rem; }
+    .hero .accent { color: var(--accent); }
+    .hero p { font-size: clamp(1.15rem, 4vw, 1.4rem); max-width: 640px; margin: 0 auto 2rem; opacity: 0.95; }
+
+    .btn {
+      display: inline-block;
+      padding: 18px 40px;
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+      font-size: 1.15rem;
+      border-radius: 999px;
+      transition: all 0.25s ease;
+      box-shadow: 0 8px 20px rgba(99,102,241,0.35);
+    }
+    .btn:hover, .btn:active {
+      background: var(--accent-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px rgba(99,102,241,0.45);
+    }
+
+    section { padding: clamp(80px, 12vw, 140px) 0; }
+    h2 {
+      text-align: center;
+      font-size: clamp(2.2rem, 6vw, 3.4rem);
+      margin-bottom: 2.5rem;
+      background: linear-gradient(90deg, #a5b4fc, #c4b5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: clamp(1.2rem, 3vw, 2rem);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: clamp(1.6rem, 4vw, 2.2rem);
+      transition: all 0.28s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      border-color: var(--accent);
+      box-shadow: 0 16px 32px rgba(0,0,0,0.35);
+    }
+    .card h3 { color: var(--accent); font-size: 1.5rem; margin-bottom: 1rem; }
+
+    .advantages ul {
+      list-style: none;
+      max-width: 760px;
+      margin: 0 auto;
+      font-size: 1.18rem;
+    }
+    .advantages li {
+      margin-bottom: 1.5rem;
+      padding-left: 2.4rem;
+      position: relative;
+    }
+    .advantages li::before {
+      content: "✓";
+      color: var(--accent);
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    .price-card {
+      text-align: center;
+      max-width: 480px;
+      margin: 0 auto;
+      background: linear-gradient(135deg, #1e1e38, #141426);
+      padding: clamp(2.5rem, 6vw, 3.5rem) 1.8rem;
+      border-radius: 24px;
+      border: 2px solid var(--accent);
+    }
+    .price { font-size: clamp(3rem, 10vw, 4.5rem); font-weight: 800; color: var(--accent); margin: 1.2rem 0 1.8rem; }
+
+    .contacts {
+      text-align: center;
+      background: var(--card);
+      padding: clamp(4rem, 10vw, 6rem) 1.5rem;
+      border-radius: 24px;
+      margin: 0 16px;
+    }
+    .contacts a { font-size: 1.35rem; display: block; margin: 1.8rem 0; padding: 12px; }
+
+    footer {
+      text-align: center;
+      padding: 4rem 0 3rem;
+      color: #888;
+      font-size: 0.98rem;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 640px) {
+      body { font-size: 1.08rem; line-height: 1.75; }
+      .btn { padding: 18px 48px; font-size: 1.2rem; width: 100%; max-width: 360px; margin: 0 auto; display: block; }
+      section { padding: 70px 0; }
+      .grid { gap: 1.5rem; }
+      .price-card { padding: 2.8rem 1.5rem; }
+      .contacts { padding: 4rem 1rem; margin: 0 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container hero">
+    <h1>Військовий адвокат <span class="accent">Ярослав</span></h1>
+    <p>Професійна юридична допомога військовозобов’язаним та військовослужбовцям: ТЦК/СП, ВЛК, відстрочки від мобілізації, зняття з розшуку, оскарження незаконних рішень. Конфіденційно. Досвід з 2014 року.</p>
+    <a href="#price" class="btn">Отримати консультацію →</a>
+  </div>
+</header>
+
+<section id="services">
+  <div class="container">
+    <h2>Основні напрямки допомоги</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Оформлення відстрочки від мобілізації</h3>
+        <p>Аналіз підстав, підготовка та подання документів, супровід у ТЦК/СП, оскарження відмов. Допомагаю отримати відстрочку за всіма законними підставами (ст. 23 Закону про мобілізацію).</p>
+      </div>
+      <div class="card">
+        <h3>Оскарження висновків ВЛК</h3>
+        <p>Оскарження непридатності/обмеженої придатності, допомога у проходженні повторної ВЛК, збір медичних документів, представництво в суді.</p>
+      </div>
+      <div class="card">
+        <h3>Зняття з розшуку ТЦК та скасування штрафів</h3>
+        <p>Зняття позначки «розшук», оскарження постанов про адмінправопорушення (ст. 210-1 КУпАП), повернення водійських прав, уникнення кримінальної відповідальності.</p>
+      </div>
+      <div class="card">
+        <h3>Супровід у ТЦК/СП</h3>
+        <p>Виїзд адвоката разом з клієнтом, перевірка законності дій працівників ТЦК, фіксація порушень, запобігання незаконній мобілізації.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="advantages" style="background:#080812;">
+  <div class="container">
+    <h2>Чому обирають мене</h2>
+    <div class="advantages">
+      <ul>
+        <li>Досвід роботи з військовим правом з 2014 року</li>
+        <li>Сотні успішно вирішених справ по ТЦК, ВЛК, відстрочках</li>
+        <li>Повна конфіденційність — жодних витоків інформації</li>
+        <li>Фіксована ціна без прихованих доплат</li>
+        <li>Щоденні звіти та комунікація в зручному месенджері</li>
+        <li>Представництво в судах усіх інстанцій по всій Україні</li>
+        <li>Адвокатський запит, рапорти, заяви — готую за 1–2 дні</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="price">
+  <div class="container">
+    <h2>Вартість послуг (орієнтовно, 2026 р.)</h2>
+    <div class="price-card">
+      <h3>Консультація (онлайн/офлайн)</h3>
+      <div class="price">від 1 200 ₴</div>
+      <p style="font-size:1.2rem; margin:1.5rem 0 2.5rem;">
+        Оформлення відстрочки — від 12 000–25 000 ₴<br>
+        Оскарження ВЛК — від 15 000 ₴<br>
+        Зняття з розшуку + оскарження штрафу — від 8 000 ₴<br>
+        Супровід у ТЦК (виїзд) — від 5 000 ₴/день
+      </p>
+      <a href="#contacts" class="btn">Написати в Telegram →</a>
+    </div>
+  </div>
+</section>
+
+<section id="contacts" style="background:#080812;">
+  <div class="container contacts">
+    <h2>Зв’язатися зі мною</h2>
+    <p style="font-size:1.25rem; margin-bottom:2.5rem; max-width:600px; margin-left:auto; margin-right:auto;">
+      Найшвидша відповідь — у Telegram (зазвичай 10–40 хвилин). Консультація — цілодобово.
+    </p>
+    <a href="https://t.me/твій_нік" class="telegram">t.me/твій_нік</a>
+    <a href="tel:+380671234567">+38 (067) 123-45-67</a>
+    <p style="margin-top:3rem; opacity:0.75;">
+      Працюю без вихідних. Онлайн-консультації по всій Україні та за кордоном.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © 2026 Військовий адвокат Ярослав. Усі права захищено. Послуги надаються відповідно до Закону України «Про адвокатуру та адвокатську діяльність».
+  </div>
+</footer>
+
+</body>
+</html>
